@@ -4,5 +4,6 @@ cc_library(
         "src/foo.cpp",
     ],
     hdrs = ["src/foo.h"],
+    deps = ["@protobuf//:protobuf"],
     visibility = ["//visibility:public"]
 )
